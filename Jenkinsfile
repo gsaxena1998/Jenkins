@@ -10,6 +10,7 @@ pipeline {
         stage('Hello')
         {
             steps{
+                echo 'This is shared lib jenkins pipeline'
                 script{
                     hello()
                 }
